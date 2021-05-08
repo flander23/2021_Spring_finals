@@ -63,6 +63,7 @@ The trend of weather impact on click-through rate is looks like below.
 There is high correlation between weather and app click-through rate.
 
 
-H3: From an overall perspective, the different situations of consumers affect the choice of app they want to open.
+
+### H3: From an overall perspective, the different situations of consumers affect the choice of app they want to open.
 
 Concluding from all the analysis above and the model we created. The different situations of consumers affect the choice of app they want to open.
