@@ -186,6 +186,7 @@ def generateBoard():
     for x in xorder:
         BOARD.append(list(map(lambda y : ICONPATH + y + str(x) + '.png', yorder)))
 
+# def start page of app
 def drawStartPage(start_highlight = False, exit_highlight = False):
     DISPLAYSURF.fill(BLACK)
     if (start_highlight != None) & (exit_highlight != None):
@@ -281,11 +282,13 @@ def drawBoard():
                 iconRecObj.topleft = (left, top)
             DISPLAYSURF.blit(iconSurfaceObj, iconRecObj)
 
+#Pixels coordinater for the images
 def box2PixelCoordinate(boxx, boxy):
     left = IPHONEIMGLEFT + (BOXSIZE + GAPXSIZE) * boxx
     top = IPHONEIMGTOP + (BOXSIZE + GAPYSIZE) * boxy
     return (left, top)
 
+# generate customer grops, there are 6 variables.
 def generateCustomerGroup(customer_number, gender_df, age_df, income_df, population_df, preference_df):
     gender_arr = np.random.choice(gender_df['Gender'], p = gender_df['Probability'].values.tolist(), size = customer_number)
     age_ls = np.random.choice(age_df['Age Range'], p = age_df['Probability'].values.tolist(), size = customer_number).tolist()
