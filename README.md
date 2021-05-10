@@ -69,4 +69,6 @@ There is high correlation between weather and app click-through rate.
 
 ### H3: The screen position of apps affect their popularities
 
+<img width="561" alt="Screen Shot 2021-05-10 at 1 24 54 PM" src="https://user-images.githubusercontent.com/77983207/117708917-fdb9fc80-b195-11eb-9da4-5578c79ab6a9.png">
+
 Through a large number of simulations, the position of the program on the screen does affect the click-through rate of apps. (More Details on the datingapp_mcs.ipynb)
