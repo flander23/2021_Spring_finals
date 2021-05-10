@@ -62,11 +62,13 @@ PURPLE = (255, 0  , 255)
 CYAN   = (0  , 255, 255)
 
 
+# Main function
 def main():
     global FPSCLOCK, DISPLAYSURF, BOARD, COUNT, CUSTOMER_TOTAL, CUSTOMER_NOW
     BOARD = []
     COUNT = 0
     IDX = 0
+    # The number of simulation and customer.
     CUSTOMER_TOTAL = 1000
     CUSTOMER_NOW = 0
     print('Generating Simulation..........')
