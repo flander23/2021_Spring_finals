@@ -2,11 +2,15 @@
 
 ## Project Design
 
-By using Monte Carlo simulation, we want to design a program and study the click-through rate of mobile apps in the whole Chicago city. We will focus on a certain app, which is Tinder. If we are a developer of Tinder, we want to know how many people will open this app and the usage of Tinder. Depending on the weather, consumers' app preferences, consumers' economic conditions, and consumers' social groups, we will simulate how many people will open Tinder monthly and how these variables affect people's choices. We will assume that there are one million people in Chicago and do one million simulations to verify our hypothesis.
+By using Monte Carlo simulation, we want to design a program and study the click-through rate of mobile apps in the whole Chicago city. We will focus on a certain app, which is Tinder. If we are a developer of Tinder, we want to know how many people will open this app and the usage of Tinder. Depending on the weather, consumers' app preferences, consumers' economic conditions, and consumers' social groups, we will simulate how many people will open Tinder monthly and how these variables affect people's choices, and we also explore how screen position of apps will affect their popularities We will assume that there are one million people in Chicago.
+
+The "datingapp_mcsimulation.py" file is the main app we designed. You can open it through terminal to demonstrate how our app works. 
+The "datingapp_mcs.ipynb" file has all the details of our project, which contains three hypotheses, doctest, and docstring.
 
 ## Data Collection and analyze
-To analyze the click-through rate of Tinder, we've collected related data from website.
-In addition, we used "Pillow" package to convert the heat map into pixels since they have different colors. Then, we calculated the number of pixels in differnt colors, and we found distributions of each range and generate percentage.
+To analyze the click-through rate of Tinder, we've collected related data in Chicago from website.
+In addition, we used "Pillow" package to convert the heat map into pixels since they have different colors. Then, we calculated the number of pixels in differnt colors, and we found distributions of each range and generate percentages.
+
 ### Population density
 
 ![image](https://user-images.githubusercontent.com/58837457/117296106-3f515b80-aea7-11eb-9c0c-df244b898117.png)
@@ -63,7 +67,6 @@ The trend of weather impact on click-through rate is looks like below.
 There is high correlation between weather and app click-through rate.
 
 
+### H3: The screen position of apps affect their popularities
 
-### H3: From an overall perspective, the different situations of consumers affect the choice of app they want to open.
-
-Concluding from all the analysis above and the model we created. The different situations of consumers affect the choice of app they want to open.
+Through a large number of simulations, the position of the program on the screen does affect the click-through rate of apps. (More Details on the datingapp_mcs.ipynb)
