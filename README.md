@@ -14,18 +14,24 @@ In addition, we used "Pillow" package to convert the heat map into pixels since 
 ### Population density
 
 ![image](https://user-images.githubusercontent.com/58837457/117296106-3f515b80-aea7-11eb-9c0c-df244b898117.png)
+<img width="320" alt="Screen Shot 2021-05-10 at 6 01 09 PM" src="https://user-images.githubusercontent.com/77983207/117734909-0f150000-b1ba-11eb-9bc6-bb42a8d230c0.png">
+
 
 http://afterburnham.com/settlements/3-5-06-city-of-chicago-population-density-circa-2010/
 
 ### Household income
 
 ![image](https://user-images.githubusercontent.com/58837457/117296288-77589e80-aea7-11eb-9aa1-15fc5f6fd6f1.png)
+<img width="259" alt="Screen Shot 2021-05-10 at 6 04 34 PM" src="https://user-images.githubusercontent.com/77983207/117734997-3d92db00-b1ba-11eb-9fe4-61595dab4d0a.png">
+
 
 https://www.reddit.com/r/dataisbeautiful/comments/5qcslz/income_distribution_in_chicago_oc/
 
 ### Age
 
 ![image](https://user-images.githubusercontent.com/58837457/117296325-850e2400-aea7-11eb-945f-210e542d2598.png)
+<img width="260" alt="Screen Shot 2021-05-10 at 6 05 55 PM" src="https://user-images.githubusercontent.com/77983207/117735064-61562100-b1ba-11eb-84bd-38183d3ac335.png">
+
 
 http://proximityone.com/metros/pp17031_2010_001.htm
 
@@ -61,6 +67,9 @@ To analyze the impact of weather, we added temperature variable into the model.
 ![image](https://user-images.githubusercontent.com/58837457/117296846-1a111d00-aea8-11eb-994d-52f089bfe519.png)
 
 The trend of weather impact on click-through rate is looks like below.
+
+<img width="259" alt="Screen Shot 2021-05-10 at 5 47 40 PM" src="https://user-images.githubusercontent.com/77983207/117734435-14257f80-b1b9-11eb-83ea-8b9e8c1d56a7.png">
+
 
 ![image](https://user-images.githubusercontent.com/58837457/117296971-3f9e2680-aea8-11eb-952d-c846e2e6ab31.png)
 
